@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>It travel to tokyo</title>
+    <link rel="stylesheet" href="style/mark.css">
+    <link rel="stylesheet" href="style/custom.css">
+    <!-- PILL JS LOADER SYLE -->
+    <style>
+        #indicator {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 3px;
+            display: none;
+            background-color: #72b6b5;
+        }
+        
+        .is-loading {
+            display: block;
+            animation: blink 1.5s linear infinite;
+        }
+        
+        @keyframes blink {
+            from,
+            to {
+                background-color: #72b6b5;
+            }
+            50% {
+                background-color: #42b983;
+            }
+        }
+        
+        #project-link {
+            display: block;
+            position: fixed;
+            padding: 8px;
+            top: 0;
+            right: 0;
+        }
+    </style>
+    <!-- PILL JS -->
+    <script src="scripts/pill.js"></script>
+    <script src="scripts/new.js"></script>
+    <script>
+        // this is for pill js as the normal link wont work
+        function openLink(url) {
+            window.open(url, "_blank");
+        }
+    </script>
+</head>
+
+<body>
+    <div id="indicator"></div>
+    <div id="page">
+        <style>
+            .title {
+                color: #42b983;
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+                display: grid;
+            }
+            
+            .meta {
+                font-size: 0.7rem;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+        </style>
+
+        <header>
+            <a href="https://github.com/furboo/">
+                <p id="zeta">Furbo</p>
+            </a>
+        </header>
+
+        <!-- page content -->
+        <main class="post-list">
+            <p class="title">TRAVEL COST</p>
+            <p>
+                This is the cost of the entire trip:
+
+                <table class="default">
+                    <tr>
+                        <th scope="row">Days</th>
+                        <th>foot</th>
+                        <th>the vehicle(optional)</th>
+                        <th>airplane bulletin</th>
+                    </tr>
+                    <tbody style="background: rgba(223, 50, 50, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+                        <tr>
+                            <th> Day 1</th>
+                            <td>120 €</td>
+                            <td>10000 €</td>
+                            <td>159 €</td>
+                        </tr>
+                    </tbody>
+                    <tbody style="background: rgba(206, 161, 119, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+                        <tr>
+                            <th> Day 2</th>
+                            <td>120 €</td>
+                            <td>10000 €</td>
+                            <td>0 €</td>
+                        </tr>
+                    </tbody>
+                    <tbody style="background: rgba(136, 219, 98, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+                        <tr>
+                            <th> Day 3</th>
+                            <td>120 €</td>
+                            <td>10000 €</td>
+                            <td>159 €</td>
+                        </tr>
+                    </tbody>
+                    <tbody style="background: rgba(200, 135, 216, 0.3); border: 1px solid rgba(200, 100, 0, 0.3);">
+                        <tr>
+                            <th>Total</th>
+                            <td>360 €</td>
+                            <td>30000 €</td>
+                            <td>318 €</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <nav>
+                    <a href="ride-to-the-hotel.html">ride to the hotel</a><br>
+                    <a href="leisure-time.html">Leisure time</a><br>
+                    <a href="story-time.html">story time</a><br>
+                    <a href="index.html">Welcome to tokio</a><br>
+                </nav>
+        </main>
+        </p>
+
+        <!-- footer -->
+        <footer>
+            <p>© 2021 | It travel to tokyo | For Robert, Ivan and David</p>
+        </footer>
+        <script src="scripts/site.js" id="pill_site_script" type="module"></script>
+
+    </div>
+
+
+</body>
+
+</html>
